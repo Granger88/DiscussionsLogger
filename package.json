@@ -1,0 +1,23 @@
+{
+  "name": "discussionslogger",
+  "version": "1.0.0",
+  "description": "A Node.js application to log Discussions post from a FANDOM site to a Discord Webhook.",
+  "main": "index.js",
+  "dependencies": {
+    "events": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Granger88/DiscussionsLogger.git"
+  },
+  "author": "Granger88",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Granger88/DiscussionsLogger/issues"
+  },
+  "homepage": "https://github.com/Granger88/DiscussionsLogger#readme"
+}
