@@ -177,7 +177,7 @@ class DiscussionsLogger extends EventEmitter {
      */
     watchPost(postId, callback) {
         this.getWikiId().then((wikiId) => {
-            this.watching.push({postId});
+            this.watching.push(postId);
             setInterval(() => {
                 var watchRequest = this.https.get(`https://services.fandom.com/discussion/${wikiId}/threads/${postId}?responseGroup=full&show=all&limit=1`, (res) => {
                     var str = '';
