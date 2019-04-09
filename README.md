@@ -1,2 +1,2 @@
 # DiscussionsLogger
-A Node.js application to log Discussions post from a FANDOM site to a Discord Webhook.
+DiscussionsLogger is a Node.js application. It logs Discussions posts from a FANDOM site to a Discord channel via a Webhook.
