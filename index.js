@@ -20,7 +20,6 @@ class DiscussionsLogger extends EventEmitter {
      */
     constructor(server, id, token) {
         super();
-        this.prependListener
         if (!server) {
             this.emit('error', new Error('\'server\' parameter not supplied.'));
         }
