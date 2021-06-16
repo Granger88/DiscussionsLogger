@@ -1,7 +1,6 @@
 const https = require('https');
 const fs = require('fs');
 const EventEmitter = require('events').EventEmitter
-const parser = require('')
 // Function to know if a string is JSON
 var isJSON = function(json) {
     try {
